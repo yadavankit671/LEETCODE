@@ -1,0 +1,14 @@
+D:\LEETCODE\InsertGCD\bin\Debug\net8.0\InsertGCD.exe
+D:\LEETCODE\InsertGCD\bin\Debug\net8.0\InsertGCD.deps.json
+D:\LEETCODE\InsertGCD\bin\Debug\net8.0\InsertGCD.runtimeconfig.json
+D:\LEETCODE\InsertGCD\bin\Debug\net8.0\InsertGCD.dll
+D:\LEETCODE\InsertGCD\bin\Debug\net8.0\InsertGCD.pdb
+D:\LEETCODE\InsertGCD\obj\Debug\net8.0\InsertGCD.GeneratedMSBuildEditorConfig.editorconfig
+D:\LEETCODE\InsertGCD\obj\Debug\net8.0\InsertGCD.AssemblyInfoInputs.cache
+D:\LEETCODE\InsertGCD\obj\Debug\net8.0\InsertGCD.AssemblyInfo.cs
+D:\LEETCODE\InsertGCD\obj\Debug\net8.0\InsertGCD.csproj.CoreCompileInputs.cache
+D:\LEETCODE\InsertGCD\obj\Debug\net8.0\InsertGCD.dll
+D:\LEETCODE\InsertGCD\obj\Debug\net8.0\refint\InsertGCD.dll
+D:\LEETCODE\InsertGCD\obj\Debug\net8.0\InsertGCD.pdb
+D:\LEETCODE\InsertGCD\obj\Debug\net8.0\InsertGCD.genruntimeconfig.cache
+D:\LEETCODE\InsertGCD\obj\Debug\net8.0\ref\InsertGCD.dll

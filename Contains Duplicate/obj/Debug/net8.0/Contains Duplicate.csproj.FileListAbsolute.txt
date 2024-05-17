@@ -1,0 +1,14 @@
+D:\LEETCODE\Contains Duplicate\bin\Debug\net8.0\Contains Duplicate.exe
+D:\LEETCODE\Contains Duplicate\bin\Debug\net8.0\Contains Duplicate.deps.json
+D:\LEETCODE\Contains Duplicate\bin\Debug\net8.0\Contains Duplicate.runtimeconfig.json
+D:\LEETCODE\Contains Duplicate\bin\Debug\net8.0\Contains Duplicate.dll
+D:\LEETCODE\Contains Duplicate\bin\Debug\net8.0\Contains Duplicate.pdb
+D:\LEETCODE\Contains Duplicate\obj\Debug\net8.0\Contains Duplicate.GeneratedMSBuildEditorConfig.editorconfig
+D:\LEETCODE\Contains Duplicate\obj\Debug\net8.0\Contains Duplicate.AssemblyInfoInputs.cache
+D:\LEETCODE\Contains Duplicate\obj\Debug\net8.0\Contains Duplicate.AssemblyInfo.cs
+D:\LEETCODE\Contains Duplicate\obj\Debug\net8.0\Contains Duplicate.csproj.CoreCompileInputs.cache
+D:\LEETCODE\Contains Duplicate\obj\Debug\net8.0\Contains Duplicate.dll
+D:\LEETCODE\Contains Duplicate\obj\Debug\net8.0\refint\Contains Duplicate.dll
+D:\LEETCODE\Contains Duplicate\obj\Debug\net8.0\Contains Duplicate.pdb
+D:\LEETCODE\Contains Duplicate\obj\Debug\net8.0\Contains Duplicate.genruntimeconfig.cache
+D:\LEETCODE\Contains Duplicate\obj\Debug\net8.0\ref\Contains Duplicate.dll

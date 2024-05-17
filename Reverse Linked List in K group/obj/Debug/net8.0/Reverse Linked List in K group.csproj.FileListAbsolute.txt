@@ -1,0 +1,14 @@
+D:\LEETCODE\Reverse Linked List in K group\bin\Debug\net8.0\Reverse Linked List in K group.exe
+D:\LEETCODE\Reverse Linked List in K group\bin\Debug\net8.0\Reverse Linked List in K group.deps.json
+D:\LEETCODE\Reverse Linked List in K group\bin\Debug\net8.0\Reverse Linked List in K group.runtimeconfig.json
+D:\LEETCODE\Reverse Linked List in K group\bin\Debug\net8.0\Reverse Linked List in K group.dll
+D:\LEETCODE\Reverse Linked List in K group\bin\Debug\net8.0\Reverse Linked List in K group.pdb
+D:\LEETCODE\Reverse Linked List in K group\obj\Debug\net8.0\Reverse Linked List in K group.GeneratedMSBuildEditorConfig.editorconfig
+D:\LEETCODE\Reverse Linked List in K group\obj\Debug\net8.0\Reverse Linked List in K group.AssemblyInfoInputs.cache
+D:\LEETCODE\Reverse Linked List in K group\obj\Debug\net8.0\Reverse Linked List in K group.AssemblyInfo.cs
+D:\LEETCODE\Reverse Linked List in K group\obj\Debug\net8.0\Reverse Linked List in K group.csproj.CoreCompileInputs.cache
+D:\LEETCODE\Reverse Linked List in K group\obj\Debug\net8.0\Reverse Linked List in K group.dll
+D:\LEETCODE\Reverse Linked List in K group\obj\Debug\net8.0\refint\Reverse Linked List in K group.dll
+D:\LEETCODE\Reverse Linked List in K group\obj\Debug\net8.0\Reverse Linked List in K group.pdb
+D:\LEETCODE\Reverse Linked List in K group\obj\Debug\net8.0\Reverse Linked List in K group.genruntimeconfig.cache
+D:\LEETCODE\Reverse Linked List in K group\obj\Debug\net8.0\ref\Reverse Linked List in K group.dll

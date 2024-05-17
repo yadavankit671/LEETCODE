@@ -1,0 +1,14 @@
+D:\LEETCODE\Valid Anagram\bin\Debug\net8.0\Valid Anagram.exe
+D:\LEETCODE\Valid Anagram\bin\Debug\net8.0\Valid Anagram.deps.json
+D:\LEETCODE\Valid Anagram\bin\Debug\net8.0\Valid Anagram.runtimeconfig.json
+D:\LEETCODE\Valid Anagram\bin\Debug\net8.0\Valid Anagram.dll
+D:\LEETCODE\Valid Anagram\bin\Debug\net8.0\Valid Anagram.pdb
+D:\LEETCODE\Valid Anagram\obj\Debug\net8.0\Valid Anagram.GeneratedMSBuildEditorConfig.editorconfig
+D:\LEETCODE\Valid Anagram\obj\Debug\net8.0\Valid Anagram.AssemblyInfoInputs.cache
+D:\LEETCODE\Valid Anagram\obj\Debug\net8.0\Valid Anagram.AssemblyInfo.cs
+D:\LEETCODE\Valid Anagram\obj\Debug\net8.0\Valid Anagram.csproj.CoreCompileInputs.cache
+D:\LEETCODE\Valid Anagram\obj\Debug\net8.0\Valid Anagram.dll
+D:\LEETCODE\Valid Anagram\obj\Debug\net8.0\refint\Valid Anagram.dll
+D:\LEETCODE\Valid Anagram\obj\Debug\net8.0\Valid Anagram.pdb
+D:\LEETCODE\Valid Anagram\obj\Debug\net8.0\Valid Anagram.genruntimeconfig.cache
+D:\LEETCODE\Valid Anagram\obj\Debug\net8.0\ref\Valid Anagram.dll

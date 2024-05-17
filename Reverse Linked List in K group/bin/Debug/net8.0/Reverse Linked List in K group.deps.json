@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Reverse Linked List in K group/1.0.0": {
+        "runtime": {
+          "Reverse Linked List in K group.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Reverse Linked List in K group/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

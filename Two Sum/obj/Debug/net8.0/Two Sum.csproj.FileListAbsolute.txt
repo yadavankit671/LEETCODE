@@ -1,0 +1,14 @@
+D:\LEETCODE\Two Sum\bin\Debug\net8.0\Two Sum.exe
+D:\LEETCODE\Two Sum\bin\Debug\net8.0\Two Sum.deps.json
+D:\LEETCODE\Two Sum\bin\Debug\net8.0\Two Sum.runtimeconfig.json
+D:\LEETCODE\Two Sum\bin\Debug\net8.0\Two Sum.dll
+D:\LEETCODE\Two Sum\bin\Debug\net8.0\Two Sum.pdb
+D:\LEETCODE\Two Sum\obj\Debug\net8.0\Two Sum.GeneratedMSBuildEditorConfig.editorconfig
+D:\LEETCODE\Two Sum\obj\Debug\net8.0\Two Sum.AssemblyInfoInputs.cache
+D:\LEETCODE\Two Sum\obj\Debug\net8.0\Two Sum.AssemblyInfo.cs
+D:\LEETCODE\Two Sum\obj\Debug\net8.0\Two Sum.csproj.CoreCompileInputs.cache
+D:\LEETCODE\Two Sum\obj\Debug\net8.0\Two Sum.dll
+D:\LEETCODE\Two Sum\obj\Debug\net8.0\refint\Two Sum.dll
+D:\LEETCODE\Two Sum\obj\Debug\net8.0\Two Sum.pdb
+D:\LEETCODE\Two Sum\obj\Debug\net8.0\Two Sum.genruntimeconfig.cache
+D:\LEETCODE\Two Sum\obj\Debug\net8.0\ref\Two Sum.dll
