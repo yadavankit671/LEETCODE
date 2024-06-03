@@ -4,7 +4,8 @@
         ".fantomasignore": "ignore",
         "iostream": "cpp",
         "bitset": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "ostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
