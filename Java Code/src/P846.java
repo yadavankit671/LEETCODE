@@ -3,7 +3,7 @@ import java.util.*;
 class Solution846 {
     public boolean isNStraightHand(int[] hand, int groupSize) {
         if(hand.length%groupSize!=0) return false;
-        TreeMap<Integer,Integer> mp= new TreeMap<>(); // beacause it is sorted 
+        Map<Integer,Integer> mp= new HashMap<>(); // beacause it is sorted 
         for(int x : hand)   mp.put(x,mp.getOrDefault(x, 0)+1);
         while(!mp.isEmpty()){
             int num=mp.keySet().iterator().next();

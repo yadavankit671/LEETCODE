@@ -1,4 +1,4 @@
-class Solution {
+public class P2149 {
     public static int[] rearrangeArray(int[] nums) {
         int size=nums.length;
         int[] result=new int[size];
