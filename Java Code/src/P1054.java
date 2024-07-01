@@ -6,7 +6,7 @@ public class P1054 {
         // if array[i] is small or within a limit, just have an array of int[limit+1] and store frequencies
         // and have a list of [key,freq]
         // will do the job 
-        // this I thought fits for both space and time ...
+        // this I thought fits for both space and time ... and works for any values ...
         int[] ans = new int[barcodes.length];
         Map<Integer, Integer> freqCount = new HashMap<>();
         for (int x : barcodes) {
