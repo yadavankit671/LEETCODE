@@ -3,7 +3,7 @@ import java.util.*;
 public class P1054 {
     public int[] rearrangeBarcodes(int[] barcodes){
         // this efficient in terms of space..
-        // if array size is small just have an array of int[barcodes.length+1] and store frequencies
+        // if array[i] is small or within a limit, just have an array of int[limit+1] and store frequencies
         // and have a list of [key,freq]
         // will do the job 
         // this I thought fits for both space and time ...
