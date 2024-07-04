@@ -10,19 +10,19 @@ struct ListNode {
 class Solution {
 public:
     ListNode* mergeNodes(ListNode* head) {
-        ListNode* result=new ListNode(0);
-        ListNode* temp=result;
         int sum=0;
-        while(head){
-            if(head->val==0){
+        ListNode *temp= new ListNode(0);
+        ListNode *result=temp;
+        while(head!=nullptr){
+            sum+=head->val;
+            if(head->val==0 && sum>0){
                 temp->next=new ListNode(sum);
                 temp=temp->next;
                 sum=0;
             }
-            else sum+=head->val;
             head=head->next;
         }
-        return result->next->next;
+        return result->next;
     }
 };
 int main(){
