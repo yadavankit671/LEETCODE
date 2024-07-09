@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution3115 {
+class Solution {
     private void SieveOfEratosthenes(boolean[] prime,int n){
         for (int p = 2; p * p <= n; p++) {
             if (prime[p] == true) {
@@ -34,7 +34,7 @@ class Solution3115 {
 }
 public class P3115 {
     public static void main(String[] args) {
-        Solution3115 obj = new Solution3115();
+        Solution obj = new Solution();
         int[] nums={4,2,9,5,3};
         System.out.println(obj.maximumPrimeDifference(nums));
     }

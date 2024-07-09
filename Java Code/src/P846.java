@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution846 {
+class Solution {
     public boolean isNStraightHand(int[] hand, int groupSize) {
         if(hand.length%groupSize!=0) return false;
         Map<Integer,Integer> mp= new HashMap<>(); // beacause it is sorted 
@@ -19,7 +19,7 @@ class Solution846 {
 public class P846 {
     public static void main(String[] args) {
         int[] hand={1,2,3,6,2,3,4,7,8};
-        Solution846 obj= new Solution846();
+        Solution obj= new Solution();
         int groupSize=3;
         System.out.println(obj.isNStraightHand(hand, groupSize));
     }

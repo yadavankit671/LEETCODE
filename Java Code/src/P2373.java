@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution2373 {
+class Solution {
     private int maxima(int x,int y,int [][] mat){
         int result = 0;
         for(int i=x;i<x+3;i++){
@@ -23,7 +23,7 @@ class Solution2373 {
 public class P2373 {
     public static void main(String[] args) {
         int[][] mat=new int[][]{{9,9,8,1},{5,6,2,6},{8,2,6,4},{6,2,2,2}};
-        Solution2373 obj=new Solution2373();
+        Solution obj=new Solution();
         int[][] result=obj.largestLocal(mat);
         for(var x: result){
             System.out.println(Arrays.toString(x));

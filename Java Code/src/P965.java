@@ -1,4 +1,4 @@
-public class P965 {
+class Solution {
     public boolean isUnivalTree(TreeNode root){
         if(root == null) return true;
         if(root.left!=null && root.val!=root.left.val) return false;

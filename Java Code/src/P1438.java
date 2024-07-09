@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class P1438 {
+class Solution{
     public static int longestSubarray(int[] nums, int limit) {
         int result=0;
         int left=0;
@@ -30,10 +30,5 @@ public class P1438 {
             right++;
         }
         return result;
-    }
-    public static void main(String[] args) {
-        int[] nums={1,5,6,7,8,10,6,5,6};
-        int limit=4;
-        System.out.println(longestSubarray(nums, limit));
     }
 }

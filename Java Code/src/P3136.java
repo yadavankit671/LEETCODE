@@ -8,7 +8,7 @@ You are given a string word.
 
 Return true if word is valid, otherwise, return false.
  */
-class Solution3136 {
+class Solution {
     private boolean isVowel(char c){
         if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u') return true;
         return false;

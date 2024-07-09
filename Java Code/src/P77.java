@@ -1,5 +1,5 @@
 import java.util.*;
-public class P77 {
+class Solution {
     private void BackTracking(List<List<Integer> > list,int start,int end,int k,List<Integer> temp){
         if(temp.size()==k) {
             list.add(new ArrayList<>(temp));
@@ -16,10 +16,13 @@ public class P77 {
         BackTracking(result, 1, n, k, new ArrayList<>());
         return result;
     }
+    
+}
+public class P77{
     public static void main(String[] args) {
         int k=1;
         int n=10;
-        P77 obj=new P77();
+        Solution obj=new Solution();
         List<List<Integer> > result= obj.combine(n,k);
         for(List<Integer> list : result){
             System.out.println(list.toString());

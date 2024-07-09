@@ -1,4 +1,4 @@
-public class P79 {
+class Solution {
     private boolean backTrack(char[][] board,String word,int x,int y,int index,boolean[][] visited){
         if(index==word.length()) return true;
         if(x<0 || y<0 || x>=board.length || y>=board[0].length || visited[x][y]) return false;

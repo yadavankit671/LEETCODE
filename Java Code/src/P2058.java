@@ -1,4 +1,4 @@
-public class P2058 {
+class Solution{
     public int[] nodesBetweenCriticalPoints(ListNode head) {
         if(head.next==null) return new int[]{-1,-1};
         int firstCritical=Integer.MAX_VALUE;

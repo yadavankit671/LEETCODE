@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution1928 {
+class Solution {
     public int[] getConcatenation(int[] nums) {
         int[] result=new int[2*nums.length];
         for(int i=0;i<nums.length;i++){
@@ -12,7 +12,7 @@ class Solution1928 {
 }
 public class P1928{
     public static void main(String[] args) {
-        Solution1928 obj=new Solution1928();
+        Solution obj=new Solution();
         int [] nums={1,2,1};
         int [] result=obj.getConcatenation(nums);
         System.out.println(Arrays.toString(result));

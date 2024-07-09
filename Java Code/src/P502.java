@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution502 {
+class Solution {
     public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
         int n = capital.length;
         List<Integer> indexes = new ArrayList<>();

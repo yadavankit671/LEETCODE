@@ -1,4 +1,4 @@
-public class P52 {
+class Solution {
     private int result=0;
     private boolean isSafe(int row,int col,boolean[][] board){
         // column check

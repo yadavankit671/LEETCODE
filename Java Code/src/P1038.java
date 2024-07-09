@@ -10,7 +10,7 @@
 //         this.right = right;
 //     }
 // }
-public class P1038 {
+class Solution {
     private int sum;
     private void solve(TreeNode node){
         if(node==null) return;

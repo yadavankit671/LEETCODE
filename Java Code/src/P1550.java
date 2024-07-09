@@ -1,4 +1,4 @@
-public class P1550 {
+class Solution{
     public boolean threeConsecutiveOdds(int[] arr){
         int count=0;
         for(int x: arr){

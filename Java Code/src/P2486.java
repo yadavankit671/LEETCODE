@@ -1,4 +1,4 @@
-class Solution2486 {
+class Solution {
     public int appendCharacters(String s, String t) {
         int j=0;
         int covered=0;

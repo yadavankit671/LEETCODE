@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class P350 {
+class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         // Using Map and counting frequencies
         /*

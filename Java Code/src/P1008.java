@@ -1,17 +1,17 @@
-class TreeNode1008 {
+class TreeNode {
     int val;
-    TreeNode1008 left;
-    TreeNode1008 right;
-    TreeNode1008() {}
-    TreeNode1008(int val) { this.val = val; }
-    TreeNode1008(int val, TreeNode1008 left, TreeNode1008 right) {
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
     }
 }
-class Solution1008 {
-    private void buildTree(int[] preorder,int i,int j,TreeNode1008 parent){
+class Solution {
+    private void buildTree(int[] preorder,int i,int j,TreeNode parent){
         if(parent==null) return;
         if(i>j || i>=preorder.length || j>=preorder.length) return;
         int right=i;
@@ -21,13 +21,13 @@ class Solution1008 {
                 break;
             }
         }
-        if(preorder[i]<parent.val) parent.left=new TreeNode1008(preorder[i]);
-        if(preorder[right]>parent.val) parent.right=new TreeNode1008(preorder[right]);
+        if(preorder[i]<parent.val) parent.left=new TreeNode(preorder[i]);
+        if(preorder[right]>parent.val) parent.right=new TreeNode(preorder[right]);
         buildTree(preorder, i+1, (right!=i)?right-1:j,parent.left);
         buildTree(preorder,(right==i)?i+1:right+1, j, parent.right);
     }
-    public TreeNode1008 bstFromPreorder(int[] preorder) {
-        TreeNode1008 root=new TreeNode1008(preorder[0]);
+    public TreeNode bstFromPreorder(int[] preorder) {
+        TreeNode root=new TreeNode(preorder[0]);
         buildTree(preorder, 1, preorder.length-1, root);
         return root;
     }

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution2037{
+class Solution{
     public int minMovesToSeat(int[] seats,int[] students){
         int result=0;
         Arrays.sort(seats);

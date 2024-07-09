@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Comparator;
 
-class Solution179 {
+class Solution {
     private boolean allZeros(int[] nums){
         for(int x : nums) if(x!=0) return false;
         return true;
@@ -24,7 +24,7 @@ class Solution179 {
 public class P179 {
     public static void main(String[] args) {
         int[] nums={74,21,33,51,77,51,90,60,5,56};
-        Solution179 obj=new Solution179();
+        Solution obj=new Solution();
         System.out.println("\""+obj.largestNumber(nums)+"\"");
     }
 }

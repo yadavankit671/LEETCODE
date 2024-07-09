@@ -1,4 +1,4 @@
-class Solution409 {
+class Solution {
     public int longestPalindrome(String s) {
         int result=0;
         int[] buff = new int[266];
@@ -21,7 +21,7 @@ class Solution409 {
 public class P409 {
     public static void main(String[] args) {
         String s="abccccdd";
-        Solution409 obj=new Solution409();
+        Solution obj=new Solution();
         System.out.println(obj.longestPalindrome(s));
     }
 }

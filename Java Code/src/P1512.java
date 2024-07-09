@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution1512 {
+class Solution {
     public int numIdenticalPairs(int[] nums) {
         int result = 0;
         int[] buffer = new int[101];
@@ -12,7 +12,7 @@ class Solution1512 {
 }
 public class P1512 {
     public static void main(String[] args) {
-        Solution1512 obj=new Solution1512 ();
+        Solution obj=new Solution ();
         int[] nums={1,2,3,1,1,3};
         System.out.println(obj.numIdenticalPairs(nums));
     }

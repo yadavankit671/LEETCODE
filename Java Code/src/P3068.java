@@ -1,4 +1,4 @@
-class Solution3068 {
+class Solution {
     public long maximumValueSum(int[] nums, int k, int[][] edges) {
         long sum=0,sacrifice=Integer.MAX_VALUE;
         int count=0;
@@ -24,7 +24,7 @@ public class P3068 {
         int[] nums=new int[]{24,78,1,97,44};
         int [][] edges=new int[][]{{0,1},{0,2}};
         int k=6;
-        Solution3068 obj=new Solution3068();
+        Solution obj=new Solution();
         System.out.println(obj.maximumValueSum(nums, k, edges));
     }
 }

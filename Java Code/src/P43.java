@@ -1,4 +1,4 @@
-class Solution43 {
+class Solution {
     private String addition(String one, String two) {
         StringBuilder ans = new StringBuilder();
         int carry = 0;
@@ -47,7 +47,7 @@ class Solution43 {
 }
 public class P43 {
     public static void main(String[] args) {
-        Solution43 obj=new Solution43();
+        Solution obj=new Solution();
         String num1="1235723495720349570345";
         String num2="45634905723489057234589";
         System.out.println(obj.multiply(num1, num2));

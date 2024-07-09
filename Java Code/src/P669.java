@@ -1,4 +1,4 @@
-public class P669 {
+class Solution {
     private TreeNode solve(TreeNode node, int low, int high){
         if(node==null) return null;
         if(node.val<low) node=solve(node.right, low, high);

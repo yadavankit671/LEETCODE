@@ -10,7 +10,7 @@
  * }
  */
 
-public class P2181 {
+ class Solution {
     public ListNode mergeNodes(ListNode head) {
         int sum=0;
         ListNode temp= new ListNode(0);

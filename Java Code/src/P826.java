@@ -8,7 +8,7 @@ class Pair{
     }
 }
 
-class Solution826 {
+class Solution {
     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
         int result = 0;
         List<Pair> buff= new ArrayList<>(0);

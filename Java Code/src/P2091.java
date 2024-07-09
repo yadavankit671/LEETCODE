@@ -1,4 +1,4 @@
-class Solution2901 {
+class Solution {
     public int minimumDeletions(int[] nums) {
         int result = 0;
         int min=Integer.MAX_VALUE;

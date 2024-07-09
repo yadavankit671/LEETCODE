@@ -1,5 +1,5 @@
 import java.util.*;
-public class P2192 {
+class Solution{
     private void DFS(List<List<Integer>> result,List<List<Integer>> adList,int child,int parent){
         for(Integer x : adList.get(child)){
             if(result.get(x).isEmpty() || result.get(x).getLast()!=parent){
@@ -23,7 +23,13 @@ public class P2192 {
         }
         return result;
     }
-    private void print(List<List<Integer> > ans){
+    
+}
+/**
+ * P2192
+ */
+public class P2192 {
+    private static void print(List<List<Integer> > ans){
         for(List<Integer> v:ans){
             if(v.isEmpty()) {
                 System.out.println("[]");
@@ -34,10 +40,11 @@ public class P2192 {
             System.out.println("]");
         }
     }
+
     public static void main(String[] args) {
-        P2192 obj= new P2192();
+        Solution obj= new Solution();
         int[][]edges={{0,3},{5,0},{2,3},{4,3},{5,3},{1,3},{2,5},{0,1},{4,5},{4,2},{4,0},{2,1},{5,1}};
         int n=6;
-        obj.print(obj.getAncestors(n,edges));
+        print(obj.getAncestors(n,edges));
     }
 }

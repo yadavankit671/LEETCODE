@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-public class P51 {
+class Solution {
     private boolean isSafe(int[][] board,int row,int col){
         // column check
         for(int i=0;i<row;i++){
@@ -43,8 +43,10 @@ public class P51 {
         BackTrack(0, n, board, result);
         return result;
     }
+}
+public class P51{
     public static void main(String[] args) {
-        P51 obj = new P51();
+        Solution obj = new Solution();
         int n=4;
         List<List<String>> result = obj.solveNQueens(n);
         for( List<String> lst : result){

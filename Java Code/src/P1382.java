@@ -14,7 +14,7 @@
  * }
  */
 import java.util.*;
-public class P1382 {
+class Solution{
     private TreeNode TreeBuilder(List<TreeNode> array,int start,int end){
         if(start>end) return null;
         // 1,2,3,4,5,6,|7|,8,9,10,11,12

@@ -1,6 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
-class Solution1002 {
+class Solution {
     public List<String> commonChars(String[] words) {
         List<String> result = new ArrayList<String>();
         int n=words.length;

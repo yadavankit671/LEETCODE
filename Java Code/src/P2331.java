@@ -10,7 +10,7 @@ class TreeNode {
         this.right = right;
     }
 }
-class Solution2331 {
+class Solution {
     private boolean solve(boolean left,boolean right,int val){
         if(val==2) {
             if(!left && !right) return false;
@@ -50,7 +50,7 @@ class Solution2331 {
 public class P2331 {
     public static void main(String[] args) {
         TreeNode root=new TreeNode(3,new TreeNode(3,new TreeNode(0),new TreeNode(0)),new TreeNode(2,new TreeNode(3,new TreeNode(1),new TreeNode(3,new TreeNode(2,new TreeNode(1),new TreeNode(1)),new TreeNode(1))),new TreeNode(2,new TreeNode(1),new TreeNode(1))));
-        Solution2331 obj=new Solution2331();
+        Solution obj=new Solution();
         System.out.println(obj.evaluateTree(root));
     }
 }

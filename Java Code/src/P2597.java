@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class Solution2597 {
+class Solution {
     private int result=0;
     private boolean isPresent(List<Integer> curr,int element) {
         int i=0;
@@ -38,7 +38,7 @@ public class P2597 {
     public static void main(String[] args) {
         int[] nums={4,2,5,9,10,3};
         int k=2;
-        Solution2597 obj= new Solution2597();
+        Solution obj= new Solution();
         System.out.println("Result : "+ obj.beautifulSubsets(nums, k));
     }
 }

@@ -1,4 +1,4 @@
-public class P168 {
+class Solution {
     public String convertToTitle(int columnNumber) {
         StringBuilder st= new StringBuilder();
         while(columnNumber>0){

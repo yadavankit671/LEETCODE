@@ -1,8 +1,7 @@
 // import java.util.*;
 
 import java.util.*;
-
-public class P2285 {
+class Solution{
     public long maximumImportance(int n, int[][] roads) {
         // GoTo 2285.cpp in C++ for BruteForce approach for better understading
         long result = 0;
@@ -19,8 +18,11 @@ public class P2285 {
         }
         return result;
     }
+}
+public class P2285 {
+    
     public static void main(String[] args) {
-        P2285 obj = new P2285();
+        Solution obj = new Solution();
         int[][] roads ={{0,1},{1,2},{2,3},{0,2},{1,3},{2,4}};
         int n=5;
         System.out.println(obj.maximumImportance(n, roads));

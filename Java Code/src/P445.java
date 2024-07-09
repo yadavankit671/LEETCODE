@@ -1,4 +1,4 @@
-public class P445 {
+class Solution {
     private ListNode reverse(ListNode node){
         ListNode rev=null;
         while(node!=null){

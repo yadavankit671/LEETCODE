@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution523 {
+class Solution{
     public boolean checkSubarraySum(int[] nums, int k) {
         int prefixSum=0;
         HashMap<Integer,Integer> mp= new HashMap<>();
@@ -19,7 +19,7 @@ public class P523 {
     public static void main(String[] args) {
         int[] arr = {5,0,0,0};
         int k=6;
-        Solution523 obj= new Solution523();
+        Solution obj= new Solution();
         System.out.println(obj.checkSubarraySum(arr, k));
     }
 }

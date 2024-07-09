@@ -1,4 +1,4 @@
-class Solution1641 {
+class Solution {
     private int accumulate(int[] arr){
         int result=0;
         for(int x:arr) result+=x;
@@ -33,7 +33,7 @@ class Solution1641 {
 public class P1641 {
     public static void main(String[] args) {
         int n=3424;
-        Solution1641 obj=new Solution1641();
+        Solution obj=new Solution();
         System.out.println(obj.countVowelStrings(n));
     }
 }

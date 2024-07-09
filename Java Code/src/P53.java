@@ -1,4 +1,4 @@
-class Solution53{
+class Solution{
     public int maxSubArray(int[] nums){
         int result=Integer.MIN_VALUE;
         int currSum=0;
@@ -12,7 +12,7 @@ class Solution53{
 }
 public class P53 {
     public static void main(String[] args) {
-        Solution53 obj=new Solution53();
+        Solution obj=new Solution();
         int [] arr ={-2,1,-3,4,-1,2,1,-5,4};
         System.out.println(obj.maxSubArray(arr));
     }

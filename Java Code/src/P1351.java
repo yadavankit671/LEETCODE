@@ -1,4 +1,4 @@
-class Solution1351 {
+class Solution {
     public int countNegatives(int[][] grid) {
         int result = 0;
         for( int [] arr : grid){
@@ -22,7 +22,7 @@ class Solution1351 {
 public class P1351 {
     public static void main(String[] args) {
         int[][] grid = new int[][]{{4,3,2,-1},{3,2,1,-1},{1,1,-1,-2},{-1,-1,-2,-3}};
-        Solution1351 obj = new Solution1351();
+        Solution obj = new Solution();
         System.out.println(obj.countNegatives(grid));
     }
 }

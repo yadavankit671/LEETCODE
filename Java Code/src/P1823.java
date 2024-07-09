@@ -1,4 +1,4 @@
-public class P1823 {
+class Solution{
     private ListNode head;
     private ListNode tail;
     void initialise(int n){
@@ -45,8 +45,15 @@ public class P1823 {
         initialise(n);
         return solve(n,k);
     }
+    
+}
+/**
+ * P1823
+ */
+public class P1823 {
+
     public static void main(String[] args) {
-        P1823 obj=new P1823();
+        Solution obj=new Solution();
         System.out.println(obj.findTheWinner(6, 5));
     }
 }

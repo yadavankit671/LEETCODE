@@ -1,6 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
-class Solution78 {
+class Solution {
     private void BackTracking(List<List<Integer>> result,int[] nums,List<Integer> curr,int index){
         result.add(new ArrayList<>(curr));
         for(int i=index;i<nums.length;i++){
@@ -19,7 +19,7 @@ class Solution78 {
 public class P78 {
     public static void main(String[] args) {
         int[] nums=new int[]{1,2,3};
-        Solution78 obj=new Solution78();
+        Solution obj=new Solution();
         List<List<Integer>> result=obj.subsets(nums);
         for(List<Integer> arr : result){
             System.out.println(arr.toString());

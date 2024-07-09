@@ -1,5 +1,5 @@
 import java.util.*;
-public class P817 {
+class Solution {
     public int numComponents(ListNode head, int[] nums) {
         int result=0;
         Set<Integer> buff= new HashSet<>();

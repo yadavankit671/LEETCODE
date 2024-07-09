@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution40 {
+class Solution {
     private void BackTracking(int[] candidates,int index,int target,List<List<Integer> > result,List<Integer> temp,int currSum){
         if(currSum==target){
             result.add(new ArrayList<>(temp));
@@ -25,7 +25,7 @@ public class P40 {
     public static void main(String[] args) {
         int[] candidates={10,1,2,7,6,1,5};
         int target=8;
-        Solution40 obj=new Solution40();
+        Solution obj=new Solution();
         List<List<Integer>> result=obj.combinationSum2(candidates, target);
         for(List<Integer> arr : result){
             System.out.println(Arrays.toString(arr.toArray()));

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class P1579 {
+class Solution {
     static class DSU{
         private int[] parent;
         private int[] rank;

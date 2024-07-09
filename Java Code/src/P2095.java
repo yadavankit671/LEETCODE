@@ -1,4 +1,4 @@
-public class P2095 {
+class Solution {
     private int len(ListNode head){
         int ret=0;
         while(head!=null){

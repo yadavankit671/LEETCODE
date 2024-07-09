@@ -1,6 +1,5 @@
 import java.util.ArrayList;
-import java.util.List;
-public class P22 {
+import java.util.List;class Solution {
     private static void BackTracking(List<String> result,StringBuilder curr,int open,int close,int n){
         if(curr.length()==2*n ){
             result.add(curr.toString());

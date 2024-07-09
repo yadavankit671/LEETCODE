@@ -1,5 +1,5 @@
 
-public class P38 {
+class Solution {
     private StringBuilder helper(StringBuilder str){
         StringBuilder ret= new StringBuilder();
         int [] last = {-1,0};
@@ -25,9 +25,5 @@ public class P38 {
             res=helper(res);
         }
         return res.toString();
-    }
-    public static void main(String[] args) {
-        P38 obj = new P38();
-        System.out.println(obj.countAndSay(4)); // "1211"
     }
 }

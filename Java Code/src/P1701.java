@@ -1,4 +1,4 @@
-public class P1701 {
+class Solution{
     public double averageWaitingTime(int[][] customers) {
         double result = 0;
         int currTime = 0;
@@ -9,8 +9,14 @@ public class P1701 {
         }
         return (double) result/customers.length;
     }
+    
+}
+/**
+ * P1701
+ */
+public class P1701 {
     public static void main(String[] args) {
-        P1701 obj = new P1701();
+        Solution obj = new Solution();
         int[][] customers = {{1,2},{2,5},{4,3}};
         System.out.println(obj.averageWaitingTime(customers));
     }

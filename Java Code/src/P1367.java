@@ -1,4 +1,4 @@
-public class P1367 {
+class Solution {
     private boolean check(TreeNode node,ListNode curr){
         if(curr==null) return true;
         if(node==null) return false;

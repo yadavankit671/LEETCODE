@@ -1,6 +1,5 @@
 import java.util.*;
-
-public class P1019 {
+class Solution{
     public int[] nextLargerNodes(ListNode head) {
         List<Integer> nodes=new ArrayList<>();
         while(head!=null){

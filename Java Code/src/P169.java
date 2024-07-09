@@ -1,4 +1,4 @@
-public class P169 {
+class Solution {
     public int majorityElement(int[] nums) {
         int ans=0;
         int count=0;

@@ -1,5 +1,5 @@
 import java.util.Arrays;
-class Solution1482{
+class Solution{
     private static int CountBouquet(int[] arr, int day,int k){
         int count=0, consecutive=0;
         for(int i=0;i<arr.length;i++){
@@ -35,7 +35,7 @@ class Solution1482{
 }
 public class P1482 {
     public static void main(String[] args) {
-        Solution1482 obj= new Solution1482();
+        Solution obj= new Solution();
         int[] bloomDay= new int[]{};
         int m=2;
         int k=3;

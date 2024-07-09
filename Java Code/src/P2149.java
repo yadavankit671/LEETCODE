@@ -1,5 +1,5 @@
-public class P2149 {
-    public static int[] rearrangeArray(int[] nums) {
+class Solution {
+    public int[] rearrangeArray(int[] nums) {
         int size=nums.length;
         int[] result=new int[size];
         int positive=0;
@@ -16,7 +16,7 @@ public class P2149 {
         }
         return result;
     }
-    static void print(int[]nums){
+    void print(int[]nums){
         if(nums.length==0){
             System.out.println("Nums is Empty !!");
             return;
@@ -27,8 +27,16 @@ public class P2149 {
         }
         System.out.println();
     }
+    
+}
+/**
+ * P2149
+ */
+public class P2149 {
+
     public static void main(String[] args) {
+        Solution obj= new Solution();
         int[] nums={3,1,2,-5,-2,-4};
-        print(rearrangeArray(nums));
+        obj.print(obj.rearrangeArray(nums));
     }
 }

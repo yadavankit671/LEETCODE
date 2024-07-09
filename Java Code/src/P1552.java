@@ -1,5 +1,5 @@
 import java.util.Arrays;
-class Solution1552 {
+class Solution {
     private boolean Solve(int[] position,int m, int midForce){
         int prevValue=position[0];
         int count=1;
@@ -33,7 +33,7 @@ public class P1552 {
     public static void main(String[] args) {
         int[] position={79,74,57,22};
         int m=4;
-        Solution1552 obj=new Solution1552();
+        Solution obj=new Solution();
         System.out.println(obj.maxDistance(position, m));
     }
 }

@@ -1,4 +1,4 @@
-class Solution72 {
+class Solution {
     private void print(int[][]mat){
         for(int i=0;i<mat.length;i++){
             for(int j=0;j<mat[i].length;j++){
@@ -32,7 +32,7 @@ class Solution72 {
 }
 public class P72 {
     public static void main(String[] args) {
-        Solution72 obj=new Solution72();
+        Solution obj=new Solution();
         String word1="horse";
         String word2="ros";
         System.out.println("\n"+obj.minDistance(word1, word2));

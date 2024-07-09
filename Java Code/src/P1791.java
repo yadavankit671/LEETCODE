@@ -1,4 +1,4 @@
-public class P1791 {
+class Solution {
     public int findCenter(int[][] edges) {
         int x = edges[0][0];
         int y = edges[0][1];

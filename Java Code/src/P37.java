@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution37 {
+class Solution {
     private int getCoordinate(int i){
         if(i>=0 && i<3) return 0;
         if(i>=3 && i<6) return 3;
@@ -52,7 +52,7 @@ public class P37 {
         {'.','.','.','4','1','9','.','.','5'},
         {'.','.','.','.','8','.','.','7','9'}
         };
-        Solution37 obj=new Solution37();
+        Solution obj=new Solution();
         obj.solveSudoku(board);
         for(char [] arr : board){
             System.out.println(Arrays.toString(arr));

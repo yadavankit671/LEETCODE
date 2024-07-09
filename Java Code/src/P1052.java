@@ -1,4 +1,4 @@
-class Solution1052 {
+class Solution {
     public int maxSatisfied(int[] customers, int[] grumpy, int minutes) {
         int result=0;
         int size=customers.length;

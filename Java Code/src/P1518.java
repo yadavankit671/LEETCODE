@@ -1,4 +1,4 @@
-public class P1518 {
+class Solution{
     public int numWaterBottles(int numBottles, int numExchange) {
         int result = numBottles;
         int empty = numBottles;

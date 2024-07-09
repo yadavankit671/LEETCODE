@@ -1,5 +1,5 @@
-public class P206 {
-    static ListNode reverseList(ListNode head) {
+class Solution {
+    ListNode reverseList(ListNode head) {
         ListNode rev=null;
         while(head !=null){
             ListNode temp=head.next;
@@ -9,7 +9,7 @@ public class P206 {
         }
         return rev;
     }
-    static void print(ListNode head){
+    void print(ListNode head){
         if(head==null){
             System.out.println("Empty List");
             return;
@@ -22,13 +22,17 @@ public class P206 {
         }
         System.out.println();
     }
+
+}
+public class P206{
     public static void main(String[] args) {
+        Solution obj=new Solution();
         ListNode head=null;
         for(int i=10;i>0;i--){
             head=new ListNode(i,head);
         }
-        print(head);
-        ListNode rev=reverseList(head);
-        print(rev);
+        obj.print(head);
+        ListNode rev=obj.reverseList(head);
+        obj.print(rev);
     }
 }
