@@ -1,30 +1,67 @@
 #include<bits/stdc++.h>
 using namespace std;
-class Trie {
-    private:
-    vector<vector<string>>buffer;
+
+class TrieNode {
     public:
-    Trie():buffer(256){}
+    TrieNode *children[26];
+    bool isEndOfWord;
+    TrieNode(){
+        isEndOfWord = false;
+        for(int i=0; i<26; i++)
+            children[i] = nullptr;
+    }
+};
+class Trie {
+    private : 
+    TrieNode *root;
+public:
+    Trie() {
+        root = new TrieNode();
+    }
     
     void insert(string word) {
-        buffer[word[0]].push_back(word);
+        TrieNode *currNode = root;
+        for(char ch : word){
+            int index = ch-'a';
+            if(currNode->children[index]==nullptr){
+                currNode->children[index]= new TrieNode();
+            }
+            currNode=currNode->children[index];
+        }
+        currNode->isEndOfWord=true;
     }
     
     bool search(string word) {
-        if(find(buffer[word[0]].begin(),buffer[word[0]].end(),word)==buffer[word[0]].end()) return false;
-        return true;
+        TrieNode *currNode = root;
+        for(char ch : word){
+            int index = ch-'a';
+            if(currNode->children[index]==nullptr) return false;
+            currNode=currNode->children[index];
+        }
+        return currNode->isEndOfWord;
     }
     
     bool startsWith(string prefix) {
-        if(buffer[prefix[0]].size()==0) return false;
-        for(int i=0;i<buffer[prefix[0]].size();i++){
-            if(buffer[prefix[0]].at(i).rfind(prefix,0)==0) return true; 
-            // logic of rfind() is that it finds the index where the provided string starts && if that is zero then it is a prefix
+        TrieNode *currNode = root;
+        for(char ch : prefix){
+            int index = ch-'a';
+            if(currNode->children[index]==nullptr) return false;
+            currNode=currNode->children[index];
         }
-        return false;
+        return true;
     }
 };
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie* obj = new Trie();
+ * obj->insert(word);
+ * bool param_2 = obj->search(word);
+ * bool param_3 = obj->startsWith(prefix);
+ */
 /*
+
+
 ["Trie","insert","search","search","startsWith","startsWith","insert","search","startsWith","insert","search","startsWith"]
 [[],      ["ab"], ["abc"], ["ab"],    ["abc"],     ["ab"],     ["ab"],  ["abc"],  ["abc"],   ["abc"], ["abc"],   ["abc"]]
 */
