@@ -4,9 +4,9 @@ class Solution {
         char high = 'a';
         char low = 'b';
         if (x < y){
-            int tmp = x;
-            x = y;
-            y = tmp;
+            x = x + y;
+            y = x - y;
+            x = x - y;
             char tmp2 = high;
             high = low;
             low = tmp2;
