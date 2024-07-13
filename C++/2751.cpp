@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 /* 
 Detailed Solution by me : 
 https://leetcode.com/problems/robot-collisions/solutions/5468504/simple-stack-approach-and-simulation-beats-all
@@ -46,5 +45,10 @@ public:
     }
 };
 int main(){
-
+    vector<int> positions = {3,5,2,6};
+    vector<int> healths = {10,10,15,12};
+    string directions = "RLRL";
+    Solution obj;
+    vector<int> result = obj.survivedRobotsHealths(positions,healths,directions);
+    for (int x : result) cout<<x<<" ";
 }
