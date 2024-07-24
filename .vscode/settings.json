@@ -71,5 +71,22 @@
         "typeinfo": "cpp",
         "valarray": "cpp"
     },
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.name.function",
+                    "entity.name.method",
+                    "entity.name.class"
+                ],
+                "settings": {
+                    "fontStyle": "bold underline" // for bold and underlined methods
+                }
+            }
+        ]
+    },
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "java.errors.incompleteClasspath.severity":"ignore",
+    "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-22"
 }
