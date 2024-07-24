@@ -88,5 +88,8 @@
     },
     "java.configuration.updateBuildConfiguration": "disabled",
     "java.errors.incompleteClasspath.severity":"ignore",
+    "java.errors.problemSeverity": {
+    "duplicateTypes": "info"
+    },
     "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-22"
 }
