@@ -4,5 +4,8 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "java.errors.incompleteClasspath.severity":"ignore",
+    //"java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-22"
 }
