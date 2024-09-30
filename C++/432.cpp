@@ -2,51 +2,53 @@
 using namespace std;
 
 class AllOne {
-    private: 
-    vector<pair<string,int>>buffer;
-    string max_key;
-    string min_key;
-    
-    void update_keys(){
-        sort(buffer.begin(), buffer.end(),[](const pair<string,int>&a,const pair<string,int>&b){return a.second<b.second;});
-        max_key=buffer.at(buffer.size()-1).first;
-        min_key=buffer.at(0).first;
-    }
+    private:
+    map<string, int> keyMap;
+    map<int, set<string> > countMap;
 public:
-    AllOne() {   
-    }
-    void inc(string key) {
-        for(auto x=buffer.begin();x!=buffer.end();x++){
-            if(x->first==key){
-                x->second++;
-                update_keys();
-                return;
-            }
-        }
-        update_keys();
+    AllOne() {
+        keyMap.clear();
+        countMap.clear();
     }
     
+    void inc(string key) {
+        if(keyMap.find(key)==keyMap.end()){
+            keyMap[key] = 1;
+            countMap[1].insert(key);
+        } else{
+            int currCount = keyMap[key];
+            keyMap[key]++;
+            countMap[currCount].erase(key);
+            if(countMap[currCount].empty()) countMap.erase(currCount);
+            countMap[currCount + 1].insert(key);
+        }
+    }
     void dec(string key) {
-        for(auto x=buffer.begin();x!=buffer.end();x++){
-            if(x->first==key){
-                if(x->second<=1) buffer.erase(x);
-                else x->second--;
-                update_keys();
-                return;
-            }
+        if(keyMap.find(key) == keyMap.end()) return;
+        int currCount = keyMap[key];
+        if(currCount == 1){
+            keyMap.erase(key);
+            countMap[1].erase(key);
+            if(countMap[1].empty()) countMap.erase(1);
+        } else{
+            keyMap[key]--;
+            countMap[currCount].erase(key);
+            if(countMap[currCount].empty()) countMap.erase(currCount);
+            countMap[currCount - 1].insert(key);
         }
     }
     
     string getMaxKey() {
-        return max_key;
+        if(countMap.empty()) return "";
+        return *(countMap.rbegin()->second.begin());
     }
     
     string getMinKey() {
-        return min_key;
+        if(countMap.empty()) return "";
+        return *(countMap.begin()->second.begin());
     }
 };
 
 int main(){
-    vector<int> list;
-    vector<int> list2;
+
 }
