@@ -8,7 +8,7 @@ class MyCircularDeque {
             this.next = null;
             this.prev = null;
         }
-        
+
     }
     private Node head;
     private Node tail;
